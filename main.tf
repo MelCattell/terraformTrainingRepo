@@ -13,6 +13,6 @@ terraform {
 }
 
 resource "google_compute_network" "example_vpc" {
-  name                    = "git-trigger-example-vpc"
+  name                    = "trigger-example-vpc"
   auto_create_subnetworks = true 
 }
